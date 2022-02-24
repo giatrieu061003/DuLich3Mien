@@ -1,0 +1,69 @@
+video{
+    width: 100%;
+}
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(0, 132, 255);
+}
+.main-menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 5px white;
+    height: 40px;
+    list-style: none;
+}
+ul.main-menu>li>a{
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant:normal;
+    padding-left: 25px;
+    color:black;
+}
+ul.main-menu>li>a:hover{
+    color:rgb(0, 217, 255);
+    font-weight: bolder;
+}
+ul.main-menu>li{
+    float: left;
+    margin: 0 100px;
+    position: relative;
+}
+ul.main-menu>li:hover>.sub-menu{
+    display: block;
+}
+.sub-menu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0, 162, 255);
+    list-style: none;
+    width: 150px;
+    position: absolute;
+    display: none;
+}
+.sub-menu a{
+    background: url('imegs/Heart.png') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted rgb(0, 217, 255);
+    color: rgb(0, 217, 255);
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.sub-menu a:hover{
+    background: url('imegs/Heart.png') no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: rgb(0, 217, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}

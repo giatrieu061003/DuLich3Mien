@@ -1,0 +1,123 @@
+header{
+    text-align: center;
+}
+.container>nav{
+    line-height: 40px;
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    font-variant: small-caps;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color:rgb(37, 184, 241);
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color:white;
+    padding:0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color:yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10px;
+    text-align: left;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.boxcenter{
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.boxleft{
+    float: left;
+    width: 15%;
+    float: top;
+    margin-left: 70px; 
+    min-height: 600px;  
+}
+.boxleft img{
+   display: block;
+   float:left;
+   margin-left: 10px;
+   margin-right: 10px;
+   float: top;
+}
+.boxmid{
+    float:left;
+    width: calc(55% - 20px);
+    min-height: 600px;  
+}
+.boxmid img{
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.boxright{
+    float: left;
+    width: 20%;
+    min-height: 600px;
+    margin-right: 20px;
+    margin-left: 5px;
+    min-height: auto;
+}
+.boxright img{
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: rgb(122, 25, 202);
+}
+h3
+{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    clear: both;
+}
+footer>p{
+    float: left;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: bold; 
+}
